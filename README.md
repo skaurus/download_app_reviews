@@ -1,9 +1,16 @@
 This is a simple script to download App Store (iOS, MacOS) reviews for any given app.
 
 To run it, you would need Python 3 and following incantantions (while in this repo folder):
+before first run:
 ```
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+after rebooting your device, or enabling another venv:
+```
+source .venv/bin/activate
 ```
 
 After that you can use the script as follows:
